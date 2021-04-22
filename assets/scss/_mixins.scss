@@ -1,0 +1,9 @@
+@import "./extends";
+
+@mixin flex_row() {
+  @extend %flex_row;
+}
+
+@mixin flexVert() {
+  @extend %flexVert;
+}
